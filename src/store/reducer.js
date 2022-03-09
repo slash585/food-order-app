@@ -8,7 +8,7 @@ const reducer = (state, action) => {
     case "ADD_TO_CART":
       return {
         ...state,
-        cart: [...state.cart, action.item],
+        cart: [...state.cart, action.cart],
       }
 
     case "REMOVE_FROM_CART":
